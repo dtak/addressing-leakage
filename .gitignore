@@ -1,4 +1,30 @@
-# Byte-compiled / optimized / DLL files
+# PyCharm
+.idea/
+
+# Data files
+*.npy
+*.csv
+data/cub/CUB_200_2011/
+data/cub/CUB_200_2011_processed/
+data/OAI/data/*
+*.tgz
+*.tfr
+evaluation/sampler_output*
+evaluation/figures/
+experiments/figures/
+experiments/outputs/
+experiments/diagnosis/outputs/
+
+# Latex
+
+*.out
+*.aux
+*.log
+*.gz
+*.bbl
+*.blg
+
+# # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class

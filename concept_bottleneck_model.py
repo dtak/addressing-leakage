@@ -14,9 +14,9 @@ flags.DEFINE_float('dropout', 0.5, 'Dropout rate.')
 flags.DEFINE_float('label_dropout', 0.0, 'Deprecated.')
 flags.DEFINE_float('inception_weight_decay', 8e-4, 'Weight decay for InceptionV3.')
 flags.DEFINE_integer('mc_samples_for_training', 10,
-                     'Number of MC samples for prediction when the dimensions are too high.')
+                     'Number of MC samples for training.')
 flags.DEFINE_integer('mc_samples_for_prediction', 200,
-                     'Number of MC samples for prediction when the dimensions are too high.')
+                     'Number of MC samples for prediction.')
 flags.DEFINE_integer('intermediate_size', 50,
                      'Size of intermediate layer for autoregressive predictions.')
 flags.DEFINE_integer('label_multilayer', 200,
